@@ -78,7 +78,7 @@ We could either
 * move on to the small blue cluster,
 * enter the big blue region,
 * traverse the big cluster clockwise and
-* halt in the yellow region
+* halt in the big yellow region
 
 or
 
@@ -86,6 +86,6 @@ or
 * move on to the small red cluster,
 * enter the big red region,
 * traverse the big cluster counterclockwise and
-* halt in the green region.
+* halt in the big green region.
 
 The latter seems like the better option.
