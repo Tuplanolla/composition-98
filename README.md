@@ -11,5 +11,6 @@ This project contains several files.
 The final program is in `npiet-program.png`.
 Execution of the program is illustrated in `npiet-trace.png`.
 Instructions for compiling and executing the program are in `Makefile`.
+An equivalent assembly program is in `npiet-plan.asm`.
 Some scattered thoughts are in `notes.md`.
 The legal code is in `LICENSE`.
