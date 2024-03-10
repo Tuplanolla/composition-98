@@ -1,5 +1,7 @@
 # Composition 98
 
+![This is the program.](npiet-program.png)
+
 This art project is a Piet program
 that looks like the Windows 98 logo and
 prints out its version number when run.
