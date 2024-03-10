@@ -1,6 +1,7 @@
 # Notes
 
-The opaque region of the original image has the following colored areas.
+The opaque region of the original image has the following regions.
+Each region is marked with its area and possibly its primary color.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┬─┐
@@ -53,7 +54,7 @@ The opaque region of the original image has the following colored areas.
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-We want to use them to print the following characters.
+We want to use these regions to print the following characters.
 
 | Character |  Code |
 |:----------|------:|
@@ -72,7 +73,7 @@ We want to use them to print the following characters.
 We could use one of the small clusters to print `Wind`,
 the other small cluster to print `ows␠` and
 the big cluster to print `98␊` and halt.
-We could either
+In order to do this, we could either
 
 * go through the small red cluster,
 * move on to the small blue cluster,
